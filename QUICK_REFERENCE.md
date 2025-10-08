@@ -17,14 +17,14 @@ make run-main        # Your main project
 
 ## 🛠️ Build Commands
 
-| Command | Description |
-|---------|-------------|
-| `make main` | Build main project |
+| Command         | Description            |
+| --------------- | ---------------------- |
+| `make main`     | Build main project     |
 | `make triangle` | Build triangle example |
-| `make cube` | Build rotating cube |
-| `make examples` | Build all examples |
-| `make clean` | Clean build files |
-| `make help` | Show all targets |
+| `make cube`     | Build rotating cube    |
+| `make examples` | Build all examples     |
+| `make clean`    | Clean build files      |
+| `make help`     | Show all targets       |
 
 ## 🎮 Build Script Options
 
@@ -54,7 +54,7 @@ glut-docker/
 1. **Install VcXsrv**: https://sourceforge.net/projects/vcxsrv/
 2. **Configure XLaunch**:
    - Multiple windows ✓
-   - Start no client ✓  
+   - Start no client ✓
    - **Disable access control** ✓ (Important!)
 3. **Set environment**:
    ```bash
@@ -63,12 +63,12 @@ glut-docker/
 
 ## 🐛 Common Issues
 
-| Problem | Solution |
-|---------|----------|
-| "Cannot connect to X server" | Check VcXsrv is running and access control disabled |
-| "Permission denied" for build.sh | File should already be executable in container |
-| Build fails | Make sure you're inside the Docker container |
-| Window doesn't appear | Verify DISPLAY variable and X server setup |
+| Problem                          | Solution                                            |
+| -------------------------------- | --------------------------------------------------- |
+| "Cannot connect to X server"     | Check VcXsrv is running and access control disabled |
+| "Permission denied" for build.sh | File should already be executable in container      |
+| Build fails                      | Make sure you're inside the Docker container        |
+| Window doesn't appear            | Verify DISPLAY variable and X server setup          |
 
 ## 💡 Development Tips
 
@@ -93,4 +93,5 @@ glut-docker/
 - **Examples**: Check the `examples/` directory in this project
 
 ---
-*For full documentation, see README.md*
+
+_For full documentation, see README.md_
