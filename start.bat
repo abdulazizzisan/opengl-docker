@@ -1,0 +1,9 @@
+@echo off
+echo Starting VcXsrv (if not already running)...
+start "" "C:\Program Files\VcXsrv\xlaunch.exe" -run "C:\Program Files\VcXsrv\config.xlaunch"
+
+echo Setting DISPLAY variable...
+set DISPLAY=host.docker.internal:0.0
+
+echo Starting Docker container...
+docker-compose run --rm opengl-dev
